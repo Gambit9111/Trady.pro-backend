@@ -165,7 +165,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-CORS_ORIGIN_WHITELIST = [
-    # all origin
-    "*",
-]
+CORS_ALLOW_ALL_ORIGINS = True
